@@ -32,6 +32,9 @@ class DatabaseSeeder extends Seeder
             MonSeeder::class,
             NguyenLieuSeeder::class,
             BanSeeder::class,
+            NhaCungCapSeeder::class,
+            DinhMucSeeder::class,
+            TonKhoSeeder::class,
         ]);
         $this->command->info('✅ Seed hoàn tất!');
     }
